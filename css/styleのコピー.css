@@ -1,0 +1,657 @@
+/* ===========================
+            共通
+=========================== */
+body {
+	margin: 0;
+	padding: 0;
+	color: #444444;
+}
+
+p {
+	font-size: small;
+}
+
+/* ===========================
+            ヘッダー
+=========================== */
+header {
+	width: 100%;
+	margin: 0 auto;
+	/* background-color: aqua;  後で削除する */
+	background-color: #CCCCCC;
+	position: fixed;
+	top: 0;
+	left: 0;
+   
+}
+
+.container-oya {
+	width: 940px;
+    margin: 0 auto;
+	/* padding: 10px 10px 0 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	/* background-color: beige; 後で削除する */
+}
+
+.logo img {
+	padding-top: 5px;
+	width:180px;
+}
+
+.hd-icon {
+	width: 220px;
+	padding: 12px 25px;
+	margin-left: 10px;
+	text-align: center;
+	background-color: #ffffff;	
+}
+
+.hd-icon a {
+	color: #444444;
+}
+/* ========hover=========== */
+
+.hd-icon:hover {
+	background-color: #444444;
+}
+
+.hd-icon p:hover {
+	color: #ffffff;
+}
+
+/* ========hover=========== */
+
+.container {
+	display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.container img {
+	padding: 0 5px;
+}
+
+.nav-oya {
+	/* width: 960px; */
+	width: 1120px;
+    margin: 0 auto;
+	padding: 10px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	/* background-color: beige; 後で削除する */
+}
+
+.nav {
+	/* width: 960px; */
+	width: 1120px;
+    margin: 0 auto;
+	padding: 0 10px 25px 60px;
+	/* background-color: pink; 後で削除する */
+}
+.nav ul {
+    align-items: center;
+    list-style: none;
+}
+
+.nav li {
+    margin-left: 10px;
+	display: block;
+	float: left;
+	background-color: #444444;
+    height: 40px;
+	line-height: 40px;
+    width: 220px;
+    text-align: center;
+	font-size: smaller;
+}
+
+.nav ul li {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* ========hover=========== */
+
+.nav li:hover {
+	background-color: #ffffff;
+	color: #444444;
+}
+
+.nav li a:hover {
+	/* background-color: #ffffff; */
+	color: #444444;
+}
+
+/* ========hover=========== */
+
+
+/* ========================= */
+.container1 {
+	width: 100%;
+	margin: 0 auto 100px 0;
+	/* background-color: blue;  後で削除する */
+}
+
+/* ========================= */
+
+/* ===========================
+              TOP
+=========================== */
+.main {
+	width: 100%;
+	margin: 0 auto;
+	/* background-color: antiquewhite; 後で削除する */ 
+}
+
+.mainvisual {
+	text-align: center;
+	padding: 40px 0;
+	background-image: url(../img/mainvisual.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-color: azure; 後で削除する */
+	margin: 210px auto 0 auto;
+}
+
+.mainvisual h1 {
+	margin: 0;
+}
+
+.text {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 20px;
+}
+
+/* ==============================
+  ダイエットは「食事制限」ではありません
+=============================== */
+.cont-oya {
+	width: 100%;
+	background-image: url(../img/top.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5px 0;
+}
+
+.cont {
+	width: 960px;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: aliceblue;  後で削除する */
+}
+
+.box1 {
+	/* border: solid 1px;  後で削除する */
+    margin: 6px 3px;
+    padding: 12px 20px 6px 20px;
+}
+
+.box1 img {
+	width: 320px;
+}
+
+.box2 {
+	/* border: solid 1px;  後で削除する */
+    padding: 0 30px 20px 30px;
+    margin: 0 20px 10px 20px;
+	
+}
+
+/* ==========================
+  ダイエットのためにパーソナルジム
+============================= */
+.cont2 {
+	width: 960px;
+	margin: 30px auto;
+	/* background-color: aliceblue;  後で削除する */
+}
+
+.cont2 h2 {
+	text-align: center;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+.cont3 {
+	width: 960px;
+	margin: 30px auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: aliceblue;  後で削除する */
+	border-bottom: solid 1px #CCCCCC;
+}
+
+.cont-oya2 {
+	width: 960px;
+	margin: 30px auto 0 auto;
+	/* background-color: aliceblue;  後で削除する */
+	border-bottom: solid 1px #CCCCCC;
+}
+
+.cont4 {
+	width: 960px;
+	margin: 30px auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: aliceblue;  後で削除する */
+}
+
+.box3 {
+	/* border: solid 1px;  後で削除する */
+    margin: 0 25px;
+    /* padding-top: 30px; */
+}
+
+.box3 h3 {
+    border-left: solid 3px;
+	padding: 6px 15px;
+}
+
+.box4 {
+	/* border: solid 1px;  後で削除する */
+    margin: 0 20px 100px 0;
+    padding: 12px 20px 6px 20px
+}
+
+.box4 img {
+	width: 320px;
+}
+
+.box5 {
+	/* border: solid 1px;  後で削除する */
+    padding: 0 20px;
+}
+
+.box5 h3 {
+    border-left: solid 3px;
+	padding: 0 20px 20px 20px;
+}	
+
+.box6 {
+	/* border: solid 1px;  後で削除する */
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+.box6 img {
+	width: 320px;
+}
+
+.box7 {
+	/* border: solid 1px;  後で削除する */
+    padding: 0 20px;
+}
+
+.box7 h3 {
+    border-left: solid 3px;
+	padding: 0 30px 20px 30px;
+}	
+
+.box8 {
+	/* border: solid 1px;  後で削除する */
+    margin: 0 20px 450px 20px;
+    padding: 10px 20px;
+}
+
+.box8 img {
+	width: 320px;
+}
+
+/* ==========================
+       料金とコース内容
+============================= */
+.price {
+	width: 960px;
+	margin: 2em auto;
+	padding: 0;
+	/* display: flex;
+	justify-content: space-between; */
+	background-color: #444444;
+}
+
+.price h3 {
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	margin-right: 60px;
+}
+
+.price img {
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.accordion {
+  width: 880px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+span {
+	margin-left: 300px;
+}
+
+.accordion-open img {
+	margin: 10px 0 5px 10px;
+}
+
+
+.cont5 {
+	width: 960px;
+	margin: 30px auto;
+	padding: 20px 20px 40px 20px;
+	/* background-color: #DEDEDE; */
+	background-color: #F2EDE7;
+}
+
+.cont5 h2 {
+	text-align: center;
+}
+
+/* ==========================
+   ここからアコーディオンのCSS
+============================= */
+/* チェックボックスは非表示 */
+.accordion-hidden{
+  display: none;
+}
+
+/* コース・料金部分 */
+.accordion-open {
+  width: 880px;
+  display: inline-block;
+  padding: 20px 40px;
+  background: #444444;
+  cursor: pointer;
+  margin: 0 auto 50px auto;
+  font-weight: 700;
+  position: relative;/* 変更部分 */
+  color: #ffffff;
+}
+
+/* 開閉状態を示すアイコン+の作成 */
+.accordion-open::before,
+.accordion-open::after {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+/* 一本は縦にして+を作る */
+.accordion-open::after {
+  transform: translateY(-50%) rotate(90deg);
+  transition: .5s;
+}
+
+/* アコーディオンが開いたら縦棒を横棒にして-にする */
+.accordion-hidden:checked + .accordion-open:after {
+  transform: translateY(-50%) rotate(0);
+}
+
+/* 料金表部分 */
+.accordion-close {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  opacity: 0;
+  /* transition: 0.5s;表示速度の設定 */
+}
+
+.accordion-close img {
+   text-align: center;
+}
+/* チェックボックスにチェックが入ったら料金表を表示する */
+.accordion-hidden:checked + .accordion-open + .accordion-close {
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+  margin-left: 50px;
+}
+  
+/* ==========================
+   ここからアコーディオンのQ&A
+============================= */
+.accordion-open2 {
+    width: 880px;
+    display: inline-block;
+    padding: 20px;
+    background: #ffffff;
+    cursor: pointer;
+    /* margin: 5px auto; */
+    font-size: small;
+    position: relative;
+    color: #444444;
+    border-bottom: solid 1px #DEDEDE;
+}
+
+/* 開閉状態を示すアイコン+の作成 */
+.accordion-open2::before,
+.accordion-open2::after {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background: #444444;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+/* 一本は縦にして+を作る */
+.accordion-open2::after {
+	transform: translateY(-50%) rotate(90deg);
+	transition: .5s;
+}
+
+/* アコーディオンが開いたら縦棒を横棒にして-にする */
+.accordion-hidden:checked + .accordion-open2:after {
+	transform: translateY(-50%) rotate(0);
+}
+
+ 
+/* チェックボックスにチェックが入ったら料金表を表示する */
+.accordion-hidden:checked + .accordion-open2 + .accordion-close {
+	height: auto;
+	opacity: 1;
+	padding: 20px 30px;
+	font-size: small;
+  }
+/* ==========================
+       食事のコントロール
+============================= */
+.sample-title {
+	display: flex;
+	padding: 0 20px;
+}
+
+.sample-title img {
+	width: 40px;
+}
+
+.sample-title p {
+	margin: 8px;
+}
+
+.sample-text p {
+	padding: 0 20px;
+}
+
+/* ==========================
+          写真4列3行
+============================= */
+
+.sample-img{
+	display: flex;
+	flex-wrap:wrap;
+	padding: 10px;
+	}
+
+.sample-img li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:5px 10px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+	list-style: none;
+	}
+	
+.sample-img li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+	border:solid 1px #ccc; /*←画像を1pxのグレーの枠線で囲む指定の場合*/
+	}
+
+/* ==========================
+         フッター
+============================= */
+footer {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+}
+
+.ft-logo {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.ft-logo img {
+	width: 240px;
+}
+
+.ft-nav-oya {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+}
+
+.ft-nav {
+    width: 960px;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+}
+
+.ft-nav ul {
+	width: 880px;
+	height: 120px;
+	line-height: 120px;
+	/* display: flex;
+	justify-content: space-around;
+	align-items: center; */
+	text-align: center;
+	background-color: #CCCCCC; 
+	margin: 0 auto;
+}
+
+.ft-nav ul li {
+	display: inline;
+	margin-right: 20px;
+	color: #444444;
+	font-size: small;
+	list-style: none;
+	padding-left:10px;
+	border-left:1px solid #999;
+}
+
+.display-none {
+	border-left:0;
+	padding-left:0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ========================= */
+.sns {
+	width: 880px;
+	margin: 0 auto;
+	padding-top: 15px;
+	background-color: #CCCCCC; 
+	text-align: center;
+}
+
+/* ========================= */
+
+.Copyright {
+    width: 880px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background-color: #CCCCCC;
+	text-align: center;
+}
+
+small {
+    color: #444444;
+	font-size: xx-small;
+}
+
+
+/* ==========================
+        ページトップへ
+============================= */
+
+#page_top{
+	width: 90px;
+	height: 90px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+  }
+  #page_top a{
+	position: relative;
+	display: block;
+	width: 90px;
+	height: 90px;
+	text-decoration: none;
+  }
+  #page_top a::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	content: '\f102';
+	font-size: 25px;
+	color: #444444;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: -40px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	text-align: center;
+  }
+  #page_top a::after{
+	content: 'PAGE TOP';
+	font-size: 13px;
+	color: #fff;
+	position: absolute;
+	top: 45px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	text-align: center;
+	color: #444444;
+  }
+
+ 
