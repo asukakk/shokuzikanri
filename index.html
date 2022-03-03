@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>食事管理</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+</head>
+<body>
+	<!-- jQuery-st -->
+	<script>
+		// page-top
+		jQuery(function() {
+			var pagetop = $('#page_top');   
+			pagetop.hide();
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+					pagetop.fadeIn();
+				} else {
+					pagetop.fadeOut();
+				}
+			});
+			pagetop.click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 500); //0.5秒かけてトップへ移動
+				return false;
+			});
+		});
+   </script>   
+    <!-- jQuery-end -->
+
+
+	<!-- header-st -->
+	<header>
+		<div class="container-oya">
+			<div class="logo"><img src="img/logo2.png" alt=""></div>
+			<div class="container">
+
+
+<!-- 
+				<div class="hd-icon">
+					<ul>
+					<a href="https://beverly-reserve.monica-fitness.jp/register/?_ga=2.255329358.712681528.1632193597-1718827520.1612919087" target="_blank" rel="noopener"><li>無料アカウント登録</li></a>
+				    </ul>
+				</div>
+				<div class="hd-icon">
+					<ul>
+					<a href="https://beverly-reserve.monica-fitness.jp/register/?_ga=2.255329358.712681528.1632193597-1718827520.1612919087" target="_blank" rel="noopener"><li>無料アカウント登録</li></a>
+				    </ul>
+				</div> -->
+
+
+
+				<!-- <div class=""><img src="img/logo.png" alt=""></div> -->
+				<!-- <div class=""><img src="img/top-icon.jpg" alt=""></div> -->
+				<div class="hd-icon">
+					<a href="https://beverly-reserve.monica-fitness.jp/register/?_ga=2.255329358.712681528.1632193597-1718827520.1612919087" target="_blank" rel="noopener"><p>無料アカウント登録</p</a>
+				</div>
+				<div class="hd-icon">
+					<a href="https://beverly-reserve.monica-fitness.jp/reserve/schedule/1/1/" target="_blank" rel="noopener"><p>無料カウンセリング</p></a>
+				</div>
+			</div>
+		</div>
+		<div class="nav-oya">
+			<nav class="nav">
+				<ul>
+					<a href="#"><li>ホーム</li></a>
+					<a href="#"><li>コンセプト</li></a>
+					<a href="#price"><li>料金</li></a>
+					<a href="https://www.beverly-club.jp/contact/" target="_blank" rel="noopener"><li>お問い合わせ</li></a>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <!-- header-end -->
+
+	<div class="container1">
+    	<!-- main-st -->
+		<div class="main">
+			<div class="mainvisual">
+				<h1>パーソナルトレーナーの食事指導で<br>3食食べるダイエット</h1>
+			</div>
+			<div class="text">
+				<p>ザ・ビバリークラブでは、無理な食事制限はいたしません。 一人ひとり自分に合った必要な食事量を食べるようにコントロールできれば、実は太ることはないのです。 1日2食だった方は、3食に増やしていただくことになります。 「食事が増えて大丈夫？」と感じますか？ 3食きちんと食べることは、ダイエットにおいて非常に重要なのです。 リバウンドをしないダイエットにするための、無理な食事制限をしない「3食食べるダイエット」を紹介します。</p>
+			</div>
+		</div>
+		<!-- main-end -->
+
+        <div class="cont-oya">
+			<!-- cont-st -->
+			<div class="cont">
+				<div class="box1">
+					<img src="img/img.jpg" alt="">
+				</div>
+				<div class="box2">
+					<h2>ダイエットは「食事制限」ではありません。</h2>
+					<p>ご飯を食べなかったり、何かに置き換えたり、食事制限で一時的に体重が減少したとしても、また食事をとり始めると必ずリバウンドします。<br>
+						ダイエットに成功したければ、しっかり3食食べて必要な栄養素を必要な分だけとる、無理のないダイエットに取り組む必要があります。<br>
+						一生夜ご飯を食べない、続けられない食事方法でダイエットして、リバウンドしてしまっては意味がないんです。<br>
+						ダイエットが終わった後も続けられる食生活も一緒に手に入れましょう。</p>
+				</div>
+			</div>
+			<!-- cont-end -->
+        </div>
+		<!-- cont2-st -->
+        <div class="cont2">
+				<h2>ダイエットのためにパーソナルジムで行う、<br>「食事指導」と「主体性の育成」</h2>
+		</div>
+		<!-- cont2-end -->
+
+		<!-- cont3-①-st -->
+        <div class="cont3">
+			<div class="box3">
+			<h3>1. パーソナルジムの食事管理（食事指導）とは</h3>
+			<p>パーソナルジムの食事管理といえば、「糖質制限」というイメージが多いのではないでしょうか。<br>
+				「糖質制限」は確かに短期間で体重を落としやすいというメリットがあります。<br>
+				しかし実は、ダイエットには「糖質」が必要なときがあるのです。<br>
+				そこで、大切なのはタイミング。<br>
+				どのタイミングで糖質を摂ると良くないのか、ダイエットでは、どのタイミングで糖質を摂るべきかがわかれば良いのです。ただ、これらタイミングを私たちトレーナーが一生管理していくわけにはいきません。<br>
+				そこで、ザ・ビバリークラブは、お客様が自分自身で自分の体質に合った食生活ができるようになっていただきたいと思っています。<br>
+				メニューを全て指定する、食べた内容を毎回送っていただく、という完全管理では、確かに通っている間は管理ができているでしょう。しかし、私たちは、お客様がザ・ビバリークラブに通っている間だけではなく、卒業した後まで、なりたい身体でいていただくための食事を学んでいただきたいのです。<br>
+				そのためのご質問には回数制限なく、お答えしています。</p>
+			</div>	
+			<div class="box4">
+				<img src="img/img.jpg" alt="">
+			</div>
+		</div>
+		<!-- cont3-①-end -->
+
+        <div class="cont-oya2">
+			<!-- cont4-st -->
+			<div class="cont4">
+				<div class="box3">
+				<h3>2. 一人ひとりの目標に合わせた食事指導</h3>
+				<p>お客様はどのような目標をもって、ザ・ビバリークラブのドアをたたきましたか？<br>
+					「短期間で痩せたい」「筋肉を増やしたい」などお客様一人ひとりの目標は違いますし、また、もともと筋肉量が多い方も少ない方もいらっしゃいます。<br>
+					そのお客様それぞれの目標や状況をかんがみて、体質や生活環境を踏まえて食事指導を設計します。<br>
+					お客様の状況によって「糖質コントロール」「脂質コントロール」の目標に近づけるほうを優先して食事指導していきますが、効率的に結果を出すために糖質を決まった時間に決まった分量を取っていただくこともあります。<br>
+					もちろん、糖質だけでなく脂質もお客様の状況に応じて摂取していただきます。<br>
+					糖質・脂質・タンパク質の3大栄養素の何をどの程度摂取すればいいのか、トレーナーがお客様に合わせてアドバイスしていきます。</p>
+				</div>	
+				<div class="box4">
+					<img src="img/img.jpg" alt="">
+				</div>
+			</div>
+			<!-- cont4-end -->
+
+			<!-- accordion-st -->
+			<div class="accordion" id="price">
+				<input type="checkbox" id="check1" class="accordion-hidden">
+				<label for="check1" class="accordion-open">▼コース・料金とサポート内容を見る</label>
+				<label for="check1" class="accordion-close"><img src="img/price.png"></label>
+			</div>
+			<!-- accordion-end -->
+	    </div>
+
+		<!-- cont-③-st -->
+        <div class="cont">
+			<div class="box5">
+			<h3>3. 食事のコントロールはお客様主体になるようアドバイス</h3>
+			<p>ザ・ビバリークラブの目的は、お客様ご自身が理想とする身体を手に入れ、それを維持し続けてもらうことです。ダイエット後にリバウンドしてしまっては意味がありません。<br>
+				パーソナルトレーニングジム通いが終わった後もしっかりとした食生活を続けてもらえるように、食事指導を基にご自身の判断で食事のコントロールを行う、食べるトレーニングも行なっていただきます。<br>
+				食事指導を通して｢何を選べば食べても太らないか」を身体で覚えることができ、お客様に合った食生活を一生の財産とすることができます。</p>
+			</div>	
+			<div class="box6">
+				<img src="img/img.jpg" alt="">
+			</div>
+		</div>
+		<!-- cont-③-end -->
+
+		<div class="cont-oya2">
+		<!-- cont2-②-st -->
+		<div class="cont2">
+			<div class="sample-oya">
+				<div class="sample-title">
+					<img src="img/icon.jpeg" alt="">
+					<p>食事で迷うことがあれば、いつでもトレーナーにご相談ください。お客様に合わせたアドバイスをいたします。</p>
+				</div>
+				<ul class="sample-img">
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+					<li><img src="img/img3.jpg" alt=""></li>
+				</ul>
+				<div class="sample-text">
+					<p>これらの料理の中でダイエット中、ダイエットを終えた後、食べられない料理があると思いますか。<br>
+						正しい食事の知識で判断してやれば食べられない料理などありません。<br>
+						3食食べて、理想の体型を維持する、素晴らしい人生を楽しんでいただけるお手伝いをザ・ビバリークラブはさせていただきます。</p>
+				</div>
+			</div>
+		</div>
+	    </div>
+		<!-- cont2-②-end -->
+
+		<!-- cont-④-st -->
+        <div class="cont">
+			<div class="box7">
+			<h3>4.お客様がご自身でお食事コントロールをするために</h3>
+			<p>お客様には、ご契約時にザ・ビバリークラブ管理栄養士が監修した、ザ・ビバリークラブ式低糖質・低カロリーダイエットレシピをお配りしています。<br>
+				食材について、レシピはもちろんですが、いつも自炊ができるわけではありません。そこで、この冊子には、コンビニでのカロリーコントロール、糖質コントロールできる献立まで掲載されています。<br>
+				一部推奨食材について、簡単にご紹介します。</p>
+
+				<h4>糖質コントロール推奨食材の一例</h4>
+				<p>鶏むね肉、鶏ささみ、かつお、さんま、ブロッコリー、レタス、キャベツ、ほうれん草、卵、豆腐、わかめ、こんにゃく、ヨーグルト（無糖）、ブナシメジ、まいたけ、MCTオイル、塩コショウ</p>
+			    
+			    <h4>カロリーコントロール推奨食材の一例</h4>
+				<p>鶏むね肉、鶏ささみ、かつお、さんま、ブロッコリー、レタス、キャベツ、ほうれん草、卵、豆腐、わかめ、こんにゃく、ヨーグルト（無糖）、ブナシメジ、まいたけ、玄米、MCTオイル、塩コショウ</p>
+			    <p>これらを見ていただいただけでも、糖質コントロール食品とカロリーコントロール食品は、同じような食品があることがわかります。これらを指示されるのではなくご自身の知識とすることで、今後の人生において太らない食事を選ぶ基準となるでしょう。</p>
+			    <p>ここでは、ごくごく一部のご紹介になりましたが、実際に冊子には、肉類、魚類、野菜、卵、豆、乳製品、海藻類、キノコ類、油類、調味料と分類されたザ・ビバリークラブ推奨食材が掲載されています。また、コンビニ献立についても、各主要なコンビニ毎に、朝食、昼食、夕食メニューの例が掲載されているので、誰でも手軽に食事コントロールが可能になります。</p>
+			
+			</div>	
+			<div class="box8">
+				<img src="img/img2.jpg" alt="">
+			</div>
+		</div>
+		<!-- cont-④-end -->
+
+		<!-- cont5-st -->
+		<div class="cont5">
+			<h2>ダイエットに関するご質問</h2>
+			<div class="accordion">
+				<input type="checkbox" id="check2" class="accordion-hidden">
+				<label for="check2" class="accordion-open2">Q.本当に2ケ月で痩せれますか？</label>
+				<label for="check2" class="accordion-close">
+					WEBなどの広告でダイエットに成功された方のBEFORE/AFTERをご紹介しておりますが、写真加工などは一切行っておりません。<br>
+					実際にザ・ビバリークラブでダイエットに取り組まれた方のほとんどが、2ヶ月で目標を達成されています。<br>
+					目標値によっては、2ヶ月ではなく期間を調整する場合もございます。<br>
+					無料カウンセリングにて、成功事例をもとに目標達成のためのプラン(期間・内容)をご説明させていただいております。
+				</label>
+			
+				<input type="checkbox" id="check3" class="accordion-hidden">
+				<label for="check3" class="accordion-open2">Q.どれくらいで効果を実感できますか？</label>
+				<label for="check3" class="accordion-close">
+					体質などにより個人差はありますが、トレーニング開始から2週間〜3週間で多くの方が、体重や体型の変化を実感されています。<br>
+					パーソナルトレーナー指導のもと、トレーニングだけでなく、食事指導による正しい食事の摂取で、一人ひとり効果の実感できるダイエットをご提供します。
+				</label>
+				
+				<input type="checkbox" id="check4" class="accordion-hidden">
+				<label for="check4" class="accordion-open2">Q.女性でも大丈夫でしょうか？ムキムキにはなりたくないですし、お肌も綺麗に保ちたいのでですが。</label>
+				<label for="check4" class="accordion-close">
+					多くの女性にこれまでにもザ・ビバリークラブでダイエットを体験いただきました。<br>
+					目標に合わせてトレーニングメニューを決定しますので、必要な筋肉をつけ綺麗に痩せるためのトレーニングをご提供いたします。<br>
+					食事制限のイメージから、お肌を綺麗に保てないのでは、とも思われがちです。<br>
+					実際はトレーニングによりホルモンの分泌がよくなり、代謝も上がりますので、肌のターンオーバーもしやすくなり、美容効果も期待できます。
+				</label>
+				
+				<input type="checkbox" id="check5" class="accordion-hidden">
+				<label for="check5" class="accordion-open2">Q.終わった後にリバンドしませんか？</label>
+				<label for="check5" class="accordion-close">
+					短期間で痩せても、正しいダイエット方法であれば、リバウンドしにくい体にもなっていきます。<br>
+					理由は簡単です。ザ・ビバリークラブのダイエットでは、体脂肪を落としながら、筋肉量を維持・増加させるようにトレーニングしますので、ダイエット終了後に代謝のよい体を手にいれているからです。<br>
+					また食事面でも極端な食事制限は、カロリー不足を招き脂肪の溜まりやすい状況を作ることもあるため、必要な分をしっかり3食食べる指導で、正しい食生活でダイエットしていただきます。<br>
+					ダイエットを通して「太りにくい体」と「太りにくい食生活」を手に入れていますので、自分でもコントロールできるノウハウを手に入れていますので、リバウンドしにくいと言えます。
+				</label>
+				
+				<input type="checkbox" id="check6" class="accordion-hidden">
+				<label for="check6" class="accordion-open2">Q.食事制限が厳しいのではないでしょうか？</label>
+				<label for="check6" class="accordion-close">
+					無理な食事制限をするダイエットは実施しておりません。過度の食事制限は栄養不足状態になり、筋肉が破壊、代謝の悪い体を作り、体脂肪を貯めやすい太りやすい体を作ってしまいます。<br>
+					ただし食事制限を全くしないということではありません。<br>
+					一人ひとり体格・体質・目標体重などから総合的に判断した必要な栄養素・エネルギー分をしっかり食べていただきます。<br>
+					ご飯やパンなどの炭水化物(糖質)を減らす代わりに、お肉や野菜などを食べていただきます。<br>
+					食べる量を抑えるというよりも、食べるものを変えることで、しっかり食べてストレスの少ない食事制限でダイエットを続けていただきます。
+				</label>
+				
+				<input type="checkbox" id="check7" class="accordion-hidden">
+				<label for="check7" class="accordion-open2">Q.毎日の食事はどうすればよいでしょうか？</label>
+				<label for="check7" class="accordion-close">
+					毎日の食事は皆様一人ひとりに委ねることになりますが、パーソナルトレーナーが食事指導いたしますので、ご安心ください。
+					それでも迷われた場合は、電話などでトレーナーに質問してください。適切なアドバイスをお届けします。
+					トレーナーはあなたのダイエットに二人三脚で取り組みますので気軽に質問してください。
+				</label>
+				
+				<input type="checkbox" id="check8" class="accordion-hidden">
+				<label for="check8" class="accordion-open2">Q.お酒は飲んでもよいでしょうか？</label>
+				<label for="check8" class="accordion-close">
+					飲んでいただいても構いませんが適度な量と、炭水化物を多く含む醸造酒(ビール、ワイン、日本酒など)は控えていただき、蒸留酒(焼酎、ウィスキーなど)をオススメします。<br>
+					アルコールで食欲が抑えきれず、暴飲・暴食をされるケースも多いので、制御できる適量で楽しんでください。
+				</label>
+				
+				<input type="checkbox" id="check9" class="accordion-hidden">
+				<label for="check9" class="accordion-open2">Q.トレーニングは厳しくないでしょうか？</label>
+				<label for="check9" class="accordion-close">
+					パーソナルトレーナーが一人ひとりに合った適切な運動量を設定・指導いたします。トレーニング毎に、その日のコンディションチェックなど欠かさず行い、安心してトレーニングしていただけるように勤めています。
+					時にはつらく・厳しく感じる時もあるかもしれませんが、プロがあなたの状態を見極めて最適な運動量を設定していますのでご安心ください。厳しくてついていけない、ということには決してなりません。
+				</label>
+				
+				<input type="checkbox" id="check10" class="accordion-hidden">
+				<label for="check10" class="accordion-open2">Q.週2回のトレーニングで大丈夫なんでしょうか？</label>
+				<label for="check10" class="accordion-close">
+					トレーニングでは痩せるための、理想の体を実現するための筋肉をつけることを目的としています。<br>
+					必要な筋肉を作るためには、必要なトレーニングのほかに、休息期間(超回復)がとても大事になっています。<br>
+					週2回のトレーニングで現れる効果に是非ご期待ください。<br>
+				</label>
+				
+				<input type="checkbox" id="check11" class="accordion-hidden">
+				<label for="check11" class="accordion-open2">Q.これまでにダイエットに失敗していますが大丈夫でしょうか？</label>
+				<label for="check11" class="accordion-close">
+					ダイエットに失敗した方に是非通っていただきたいと思っております。
+					これまでのダイエット方法は正しかったでしょうか、気持ちが続かなかったりしたのではないでしょうか。
+					ザ・ビバリークラブでは、パーソナルトレーナーがあなたと二人三脚でダイエットに取り組み、徹底サポートいたします。
+					正しいダイエット方法を指導し、メンタル面もフォロー、最後までやり遂げやすい環境をご提供します。
+				</label>
+				
+				<input type="checkbox" id="check12" class="accordion-hidden">
+				<label for="check12" class="accordion-open2">Q.高齢でも問題ないでしょうか？</label>
+				<label for="check12" class="accordion-close">
+					高齢の方でも問題ございません。
+					パーソナルトレーナーが一人ひとりに合わせてメニューを考案しますので、無理なくトレーニングしていただくことが可能です。<br>
+					ただし入会時に健康状態を確認させていただいております。一定の基準にそぐわない方は専門医の運動許可書などが必要な場合がございます。<br>
+					まずはお気軽に無料カウンセリングにお越しください。
+				</label>
+			</div>
+		</div>
+        <!-- cont5-end -->
+	</div>
+	<!-- footer-st -->
+	<footer>
+		<div class="ft-logo">
+			<a href="#"><img src="img/logo2.png" alt=""></a>
+		</div>
+		<div class="ft-nav-oya">
+			<div class="ft-nav">
+				<ul>
+					<a href="https://www.beverly-club.jp/contact/" target="_blank" rel="noopener"><li class="display-none">お問い合わせ</li></a>
+					<a href="https://www.beverly-club.jp/about/" target="_blank" rel="noopener"><li>コンセプト</li></a>
+					<a href="https://www.beverly-club.jp/company/" target="_blank" rel="noopener"><li>会社概要</li></a>
+					<a href="https://www.beverly-club.jp/privacy-policy/" target="_blank" rel="noopener"><li>プライバシーポリシー</li></a>
+					<a href="#"><li>サイトマップ</li></a>
+				</ul>
+		    </div>
+			<div class="sns">
+				<a href="https://www.facebook.com/TheBeverlyClub" target="_blank" rel="noopener"><img src="img/fb.png" alt="" width="15"></a>
+				<a href="https://twitter.com/club_beverly" target="_blank" rel="noopener"><img src="img/tw2.png" alt="" width="15"></a>
+				<a href="https://www.instagram.com/thebeverlyclub.official/?utm_medium=copy_link" target="_blank" rel="noopener"><img src="img/ico_inst.png" alt="" width="16"></a>
+				<a href="https://page.line.me/559okfle?openQrModal=true" target="_blank" rel="noopener"><img src="img/line.png" alt="" width="16"></a>
+				<!-- <a href=""><img src="img/mail3.png" alt="" width="20"></a> -->
+			</div>
+			<!-- ページトップ-st -->
+			<div id="page_top"><a href="#"></a></div>
+			<!-- ページトップ-end -->
+		</div>
+		<div class="Copyright">
+			<small>Copyright The Beverly Club © 2018</small>
+	    </div>
+	</footer>
+	<!-- footer-end -->
+</body>
+</html>
