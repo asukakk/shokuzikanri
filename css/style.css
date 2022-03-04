@@ -655,3 +655,223 @@ small {
   }
 
  
+/* ======================= */
+/*タブレット用レイアウト*/
+/* ======================= */
+@media screen and (max-width: 960px) {
+	
+/* ===========================
+            ヘッダー
+=========================== */
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container-oya {
+	width: 70%;
+    margin: 0 auto;
+	/* padding: 10px 10px 0 10px; */
+}
+	
+.nav-oya {
+	width: 100%;
+	margin: 0 auto;
+	/* padding: 10px 10px 0 10px; */
+	border: solid 1px; /* 後で削除する */
+}
+
+.nav {
+	width: 100%;
+	margin: 10px auto 20px auto;
+	/* padding: 0 10px 25px 60px; */
+	border: solid 1px; /* 後で削除する */
+}
+
+.nav li {
+	margin-right: 10px;
+	/* display: block;
+	float: left;
+	background-color: #444444;
+	height: 40px;
+	line-height: 40px; */
+	width: 160px;
+	/* text-align: center;
+	font-size: smaller; */
+}
+
+.text {
+	/* width: 80%; */
+	width: 640px;
+}
+
+/* ==============================
+  ダイエットは「食事制限」ではありません
+=============================== */
+.cont {
+	width: 100%;
+}
+
+.box1 {
+    padding: 12px 0 6px 40px;
+}
+
+
+/* ==========================
+  ダイエットのためにパーソナルジム
+============================= */
+.cont2 {
+	width: 100%;
+}
+
+.cont3 {
+	width: 100%;
+}
+
+.cont-oya2 {
+	width: 100%;
+	margin: 30px auto 0 auto;
+	/* background-color: aliceblue;  後で削除する */
+	border-bottom: solid 1px #CCCCCC;
+}
+
+.cont4 {
+	width: 100%;
+}	
+
+.box3 {
+	padding-left: 10px;
+}
+
+.box4 {
+    margin: 0 20px 100px 0;
+    padding: 10px;
+}
+
+.box4 img {
+	width: 260px;
+}
+
+
+.box5 {
+	padding-left: 35px;
+}
+
+.box6 {
+    padding: 10px;
+}
+
+.box6 img {
+	width: 260px;
+}
+
+.box7 {
+	/* border: solid 1px;  後で削除する */
+    padding-left: 35px;
+}
+
+.box7 h3 {
+    border-left: solid 3px;
+	padding: 0 30px 20px 30px;
+}	
+
+.box8 {
+	padding: 10px;
+}
+
+.box8 img {
+	width: 260px;
+}
+
+/* ==========================
+       食事のコントロール
+============================= */
+.sample-title {
+    padding: 0 30px;
+}
+
+.sample-title img {
+	width: 5%;
+}
+
+/* ==========================
+          写真4列3行
+============================= */
+
+.sample-img {
+    padding: 20px;
+}
+
+.sample-text p {
+    padding: 0 30px;
+}
+/* ==========================
+       料金とコース内容
+============================= */
+.price {
+	width: 100%;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px 40px;
+}
+
+.cont5 {
+	width: 100%;
+}
+
+/* ==========================
+   ここからアコーディオンのCSS
+============================= */
+  /* コース・料金部分 */
+  .accordion-open {
+	width: 100%;
+	/* display: inline-block; */
+	padding: 20px 40px;
+  }
+  
+  /* チェックボックスにチェックが入ったら料金表を表示する */
+  .accordion-hidden:checked + .accordion-open + .accordion-close {
+	margin-left: 24px;
+  }
+	
+	/* ==========================
+	ここからアコーディオンのQ&A
+	============================= */
+	.accordion-open2 {
+		width: 100%;
+	}
+
+	/* ==========================
+			フッター
+	============================= */
+	.ft-logo img {
+		width: 240px;
+	}
+
+	.ft-nav-oya {
+		width: 100%;
+	}
+
+	.ft-nav {
+		width: 100%;
+	}
+
+	.ft-nav ul {
+		width: 100%;
+	}
+	/* ========================= */
+	.sns {
+		width: 100%;
+	}
+
+	/* ========================= */
+
+	.Copyright {
+		width: 100%;
+	}
+
+
+}
