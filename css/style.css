@@ -674,7 +674,7 @@ small {
 
 .mainvisual {
 	text-align: center;
-	padding: 40px 0;
+	padding: 200px 5px 10px 5px;
 	background-image: url(../img/mainvisual.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -685,7 +685,7 @@ small {
 .mainvisual h1 {
 	/* margin: 0; */
 	padding: 0 40px;
-	font-size: 32px;
+	font-size: 28px;
 }
 
 .text {
