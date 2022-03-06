@@ -877,6 +877,13 @@ span {
 	margin: 10px 0 5px 10px;
 }
 
+.accordion-close img {
+    text-align: center;
+	width: 100%;
+	padding-right: 50px;
+    margin-bottom: 40px;
+}
+
 
 
 .cont5 {
