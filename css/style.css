@@ -23,7 +23,7 @@ header {
 	/* background-color: aqua;  後で削除する */
 	background-color: #CCCCCC;
 	position: fixed;
-	z-index: 500;
+	z-index: 00;
 	top: 0;
 	left: 0;
 }
