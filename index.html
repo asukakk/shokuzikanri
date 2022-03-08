@@ -31,6 +31,21 @@
 				return false;
 			});
 		});
+
+
+
+		// ハンバーガーメニュー
+		$(function() {
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+ 
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
+    });
+});
    </script>   
     <!-- jQuery-end -->
 
@@ -40,22 +55,6 @@
 		<div class="container-oya">
 			<div class="logo"><img src="img/logo2.png" alt=""></div>
 			<div class="container">
-
-
-<!-- 
-				<div class="hd-icon">
-					<ul>
-					<a href="https://beverly-reserve.monica-fitness.jp/register/?_ga=2.255329358.712681528.1632193597-1718827520.1612919087" target="_blank" rel="noopener"><li>無料アカウント登録</li></a>
-				    </ul>
-				</div>
-				<div class="hd-icon">
-					<ul>
-					<a href="https://beverly-reserve.monica-fitness.jp/register/?_ga=2.255329358.712681528.1632193597-1718827520.1612919087" target="_blank" rel="noopener"><li>無料アカウント登録</li></a>
-				    </ul>
-				</div> -->
-
-
-
 				<!-- <div class=""><img src="img/logo.png" alt=""></div> -->
 				<!-- <div class=""><img src="img/top-icon.jpg" alt=""></div> -->
 				<div class="hd-icon">
@@ -66,6 +65,25 @@
 				</div>
 			</div>
 		</div>
+
+        <!-- ハンバーガメニューここから -->
+		<div class="nav-oya">
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			  
+			<nav class="globalMenuSp">
+				<ul>
+					<li><a href="#">ホーム</a></li>
+					<li><a href="#">コンセプト</a></li>
+					<li><a href="#price">料金</a></li>
+					<li><a href="https://www.beverly-club.jp/contact/" target="_blank" rel="noopener">お問い合わせ</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- ハンバーガメニューここまで -->
 		<div class="nav-oya">
 			<nav class="nav">
 				<ul>
@@ -109,7 +127,7 @@
         </div>
 		<!-- cont2-st -->
         <div class="cont2">
-				<h2>ダイエットのためにパーソナルジムで行う、<br>「食事指導」と「主体性の育成」</h2>
+				<h2>ダイエットのためにパーソナルジムで行う、「食事指導」と「主体性の育成」</h2>
 		</div>
 		<!-- cont2-end -->
 
