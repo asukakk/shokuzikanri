@@ -1193,7 +1193,7 @@ header {
   nav.globalMenuSp {
 	position: fixed;
 	z-index : 2;
-	top: 80px;
+	top: 60px;
 	left : 0;
 	color: #000;
 	/* background: #fff; */
